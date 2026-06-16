@@ -1,7 +1,8 @@
 .product-showcase {
   padding: 80px 0;
 
-  background: #f8f5ef;
+  background: rgba(246, 243, 242, 1);
+;
 }
 
 .showcase-header {
@@ -18,12 +19,10 @@
   color: #173321;
 
   margin-top: 8px;
-
-  font-weight: 700;
   font-family: Playfair Display;
 font-weight: 600;
-font-style: SemiBold;
-font-size: 38px;
+font-style: Semi Bold;
+font-size: 35px;
 line-height: 40px;
 letter-spacing: 0px;
 vertical-align: middle;
@@ -32,10 +31,10 @@ vertical-align: middle;
 
 .view-products {
   color: #173321;
-
+letter-spacing: 1.2px;
   text-decoration: none;
-
-  font-size: 14px;
+font: Inter;
+  font-size: 12px;
 
   font-weight: 600;
 }
@@ -45,7 +44,7 @@ vertical-align: middle;
 
   overflow: hidden;
 
-  border-radius: 18px;
+  border-radius: 12px;
 
   height: 360px;
 
@@ -67,11 +66,10 @@ vertical-align: middle;
 
   inset: 0;
 
-  background: linear-gradient(
-    to top,
-    rgba(0,0,0,0.7),
-    rgba(0,0,0,0.1)
-  );
+background: linear-gradient(0deg, rgba(0, 36, 16, 0.8) 0%, rgba(0, 36, 16, 0) 100%);
+  box-shadow: 0px 12px 32px 0px rgba(0, 36, 16, 0.05);
+  
+
 }
 
 .product-content {
@@ -87,7 +85,6 @@ vertical-align: middle;
 .product-content span {
   font: Inter;
 font-weight: 400;
-font-style: Regular;
 font-size: 10px;
 line-height: 15px;
 letter-spacing: 1px;
@@ -100,7 +97,7 @@ color: rgba(255, 255, 255, 1);
 .product-content h3 {
   font-family: Playfair Display;
 font-weight: 600;
-font-style: SemiBold;
+font-style: Semi Bold;
 font-size: 24px;
 line-height: 32px;
 letter-spacing: 0px;

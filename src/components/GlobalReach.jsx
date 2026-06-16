@@ -25,7 +25,7 @@ const GlobalReach = () => {
   <img src={world} alt="logo" />
 
   <span>
-    WORLDWIDE NETWORK
+    Worldwide Network
   </span>
 
 </div>
@@ -108,10 +108,9 @@ const GlobalReach = () => {
 </div>            
 
             </div>
+
           </div>
-
         </div>
-
         {/* Trusted Section */}
         <div className="trusted-wrapper">
 

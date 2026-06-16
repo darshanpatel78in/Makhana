@@ -57,7 +57,6 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Email Address"
-                className="newsletter-input"
               />
 
               <button className="newsletter-btn">
