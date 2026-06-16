@@ -2,6 +2,9 @@
 /* GlobalReach.css */
 
 /* ================= WORLD BACKGROUND IMAGE ================= */
+.global-section{
+  background-color: rgba(246, 243, 242, 1);
+}
 
 .global-world-bg{
   position: relative;
@@ -9,7 +12,6 @@
   width: 100%;
 
   height: 500px;
-
   background-image: url("../assets/Global-Reach-Map.png");
 
   background-repeat: no-repeat;
@@ -39,7 +41,7 @@
   align-items: center;
 
   justify-content: center;
-
+border: 1px solid rgba(201, 168, 106, 0.2);
   gap: 10px;
   width: 267px;
 height: 115px;
@@ -62,8 +64,8 @@ padding: 24px;
 .worldwide-box span{
   font-family: Playfair Display;
 font-weight: 600;
-font-style: SemiBold;
-font-size: 14px;
+font-style: Semi Bold;  
+font-size: 24px;
 line-height: 32px;
 letter-spacing: 0px;
 text-align: center;
@@ -71,75 +73,19 @@ vertical-align: middle;
 color: rgba(0, 36, 16, 1);
 
 }
-.world-bg{
-  position: absolute;
-
-  top: 50%;
-
-  left: 50%;
-
-  transform: translate(-50%, -50%);
-
-  width: 100%;
-  height: 100%;
-
-  background-image: url("../assets/world-map.png");
-
-  background-repeat: no-repeat;
-
-  background-position: center;
-
-  background-size: contain;
-
-  opacity: 0.12;
-
-  z-index: 0;
-}
-.global-section {
-  padding: 100px 0;
-  background: #f8fafc;
-  width: 1152;
-height: 400;
-opacity: 1;
-top: 2013.5px;
-left: 64px;
-grid-row: 1;
-grid-column  : 2;
-row-gap: 32px;
-column-gap: 32px;
-
-}
-
-.global-image img {
-  width: 100%;
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-}
-
 .global-content {
-  padding-left: 20px;
-  font-family: Inter;
-font-weight: 600;
-font-style: Semi Bold;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 1.2px;
-vertical-align: middle;
-width: 560;
-height: 292;
+width: 100%;
 opacity: 1;
-gap: 24px;
 top: 54px;
 left: 592px;
+gap: 24px;
 grid-row-start: 1;
 grid-column-start: 2;
 column-span: 1;
-
-
 }
 
 .global-tag {
-  font-family: Inter;
+  font: Inter;
 font-weight: 600;
 font-style: Semi Bold;
 font-size: 12px;
@@ -147,10 +93,7 @@ line-height: 16px;
 letter-spacing: 1.2px;
 vertical-align: middle;
 color: rgba(117, 90, 36, 1);
-width: 106px;
 height: 16px;
-
-
 }
 
 .global-content h2 {
@@ -165,9 +108,6 @@ font-style: SemiBold;
 line-height: 40px;
 letter-spacing: 0px;
 vertical-align: middle;
-width: 560px;
-height: 40px;
-
 }
 
 .global-content p {
@@ -175,7 +115,7 @@ height: 40px;
   line-height: 1.9;
   color: rgba(66, 72, 66, 1);
   margin-bottom: 35px;
-  font-family: Inter;
+  font: Inter;
 font-weight: 400;
 font-style: Regular;
 font-size: 16px;
@@ -204,7 +144,7 @@ vertical-align: middle;
   color:rgba(27, 27, 28, 1);
 
   gap: 10px;
-  font-family: Inter;
+  font: Inter;
 font-weight: 600;
 font-style: Semi Bold;
 line-height: 24px;
@@ -214,11 +154,12 @@ vertical-align: middle;
 }
 
 .country-box i {
-  color: #c49a4a;
+  color: rgba(117, 90, 36, 1);
   font-size: 14px;
 }
 
 /* Responsive */
+
 
 @media (max-width: 768px) {
 
@@ -246,20 +187,21 @@ vertical-align: middle;
 }
 
 .trusted-tag {
-  font-family: Inter;
+  font: Inter;
 font-weight: 600;
 font-style: Semi Bold;
-font-size: 12px;
+font-size: 14px;
 line-height: 16px;
 letter-spacing: 1.2px;
 text-align: center;
 vertical-align: middle;
+color: rgba(117, 90, 36, 1);
 }
 
 .trusted-heading h2 {
   font-family: Playfair Display;
 font-weight: 600;
-font-style: SemiBold;
+font-style: Semi Bold;
 font-size: 32px;
 line-height: 40px;
 letter-spacing: 0px;
@@ -269,22 +211,6 @@ vertical-align: middle;
 }
 
 /* Trusted Cards */
-
-.trusted-card {
-  background:rgba(234, 231, 231, 1);
-  border-radius: 18px;
-  padding: 35px 20px;
-  text-align: center;
-  height: 100%;
-  transition: 0.3s;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 5px 18px rgba(0,0,0,0.05);
-  border-radius: 8px;
-  width: 128px;
-  height: 80px;
-
-}
-
 
 .trusted-card h4 {
   color: #9da09d;
@@ -301,15 +227,13 @@ text-align: center;
 
 }
 
-
-
 .trusted-card {
-  background: #f4f1ef;
+  background:rgba(234, 231, 231, 1);
 
   width: 130px;
   height: 90px;
 
-  border-radius: 16px;
+  border-radius: 8px;
 
   display: flex;
   justify-content: center;
@@ -331,19 +255,6 @@ text-align: center;
   margin: 0;
 }
 
-/* Bottom Text */
-
-.trusted-text {
-  text-align: center;
-
-  margin-top: 14px;
-
-  font-size: 15px;
-
-  font-weight: 500;
-
-  color: #222;
-}
 .prg{
   font: Inter;
 font-weight: 400;
@@ -353,6 +264,7 @@ line-height: 15px;
 letter-spacing: 0px;
 text-align: center;
 vertical-align: middle;
+color: rgba(27, 27, 28, 1);
 
 }
 
@@ -376,25 +288,24 @@ gap: 48px;
   .trusted-card {
 color: #787d82;  }
 }
-/* =========================
-        CTA SECTION
-========================= */
 
 /* =========================
       CTA / GLOBAL REACH
 ========================= */
 
 .cta-section {
-  position: relative;
+  position: relative  ;
   overflow: hidden;
-
-  padding: 120px 40px;
+opacity: 1;
+max-width: 1152px;
+  padding: 50px 40px;
 
   border-radius: 28px;
 
-  margin-top: 90px;
+  margin: auto;
 
   background-image: url("../assets/Ready-to-source.png");
+  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -407,7 +318,8 @@ color: #787d82;  }
   position: absolute;
   inset: 0;
 
-  background: rgba(2, 45, 26, 0.72);
+  background:rgba(0, 36, 16, 0.8);
+;
 
   z-index: 1;
 }
@@ -418,11 +330,8 @@ color: #787d82;  }
   content: "";
   position: absolute;
   inset: 0;
+  backdrop-filter: blur(2px);
 
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-
-  background: rgba(0, 0, 0, 0.12);
 
   z-index: 2;
 }
@@ -448,7 +357,7 @@ color: white;
 }
 
 .cta-section p {
-font-family: Inter;
+font: Inter;
 font-weight: 400;
 font-style: Regular;
 font-size: 18px;
@@ -467,12 +376,9 @@ color: rgba(126, 165, 136, 1);
   display: flex;
   justify-content: center;
   gap: 18px;
-  flex-wrap: wrap;
 }
 
 .primary-btn1 {
-  width: 282.5799865722656;
-height: 58;
 padding-top: 20.5px;
 padding-right: 48px;
 padding-bottom: 21.5px;
@@ -495,8 +401,6 @@ color: rgba(91, 67, 14, 1);
 }
 
 .secondary-btn1 {
-  width: 244px;
-height: 58px;
 padding-top: 20px;
 padding-right: 48px;
 padding-bottom: 20px;

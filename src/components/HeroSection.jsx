@@ -15,7 +15,7 @@ const HeroSection = () => {
           </h6>
           
           <h1>
-            Premium Indian Makana Exporters
+            Premium Indian Makhana Exporters
           </h1>
 
           <p>
