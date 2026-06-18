@@ -1,0 +1,545 @@
+
+/* GlobalReach.css */
+
+/* ================= WORLD BACKGROUND IMAGE ================= */
+
+.global-world-bg{
+  position: relative;
+
+  width: 100%;
+
+  height: 500px;
+
+  background-image: url("../assets/Global-Reach-Map.png");
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: contain;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+/* ================= CENTER WHITE BOX ================= */
+
+.worldwide-box{
+  background: white;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+  width: 267px;
+height: 115px;
+gap: 8px;
+opacity: 1;
+border-radius: 8px;
+border-width: 1px;
+padding: 24px;
+
+}
+
+.worldwide-box img{
+  width: 30px;
+
+  height: 30px;
+
+  object-fit: contain;
+}
+
+.worldwide-box span{
+  font-family: Playfair Display;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color: rgba(0, 36, 16, 1);
+
+}
+.world-bg{
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../assets/world-map.png");
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: contain;
+
+  opacity: 0.12;
+
+  z-index: 0;
+}
+.global-section {
+  padding: 100px 0;
+  background: #f8fafc;
+  width: 1152;
+height: 400;
+opacity: 1;
+top: 2013.5px;
+left: 64px;
+grid-row: 1;
+grid-column  : 2;
+row-gap: 32px;
+column-gap: 32px;
+
+}
+
+.global-image img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.global-content {
+  padding-left: 20px;
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 1.2px;
+vertical-align: middle;
+width: 560;
+height: 292;
+opacity: 1;
+gap: 24px;
+top: 54px;
+left: 592px;
+grid-row-start: 1;
+grid-column-start: 2;
+column-span: 1;
+
+
+}
+
+.global-tag {
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 1.2px;
+vertical-align: middle;
+color: rgba(117, 90, 36, 1);
+width: 106px;
+height: 16px;
+
+
+}
+
+.global-content h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.3;
+  color:rgba(0, 36, 16, 1);
+  margin-bottom: 25px;
+  font-family: Playfair Display;
+font-weight: 600;
+font-style: SemiBold;
+line-height: 40px;
+letter-spacing: 0px;
+vertical-align: middle;
+
+}
+
+.global-content p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: rgba(66, 72, 66, 1);
+  margin-bottom: 35px;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+vertical-align: middle;
+
+}
+.country-box {
+  height: 58px;
+
+  background: #fff;
+
+  border: 1px solid #e5e5e5;
+
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 18px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color:rgba(27, 27, 28, 1);
+
+  gap: 10px;
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+line-height: 24px;
+letter-spacing: 0px;
+vertical-align: middle;
+
+}
+
+.country-box i {
+  color: #c49a4a;
+  font-size: 14px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .global-content {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .global-content h2 {
+    font-size: 34px;
+  }
+
+  .country-list {
+    justify-content: center;
+  }
+}
+/* Trusted Section Inside Global */
+
+.trusted-wrapper {
+  margin-top: 120px;
+}
+
+.trusted-heading {
+  margin-bottom: 20px;
+}
+
+.trusted-tag {
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 1.2px;
+text-align: center;
+vertical-align: middle;
+}
+
+.trusted-heading h2 {
+  font-family: Playfair Display;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+
+}
+
+/* Trusted Cards */
+
+.trusted-card {
+  background:rgba(234, 231, 231, 1);
+  border-radius: 18px;
+  padding: 35px 20px;
+  text-align: center;
+  height: 100%;
+  transition: 0.3s;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  width: 128px;
+  height: 80px;
+
+}
+
+
+.trusted-card h4 {
+  color: #9da09d;
+  margin-bottom: 15px;
+  font: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+vertical-align: middle;
+width: 128px;
+text-align: center;
+
+}
+
+
+
+.trusted-card {
+  background: #f4f1ef;
+
+  width: 130px;
+  height: 90px;
+
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  margin: auto;
+}
+
+/* Heading */
+
+.trusted-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+
+  color: #9c9c9c;
+
+  margin: 0;
+}
+
+/* Bottom Text */
+
+.trusted-text {
+  text-align: center;
+
+  margin-top: 14px;
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+  color: #222;
+}
+.prg{
+  font: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 10px;
+line-height: 15px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .trusted-wrapper {
+  width: 1152;
+height: 158.5;
+opacity: 0.6;
+padding-top: 55.5px;
+gap: 48px;
+
+  }
+
+  .trusted-heading h2 {
+    font-size: 32px;
+  }
+
+  .trusted-card {
+color: #787d82;  }
+}
+/* =========================
+        CTA SECTION
+========================= */
+
+/* =========================
+      CTA / GLOBAL REACH
+========================= */
+
+.cta-section {
+  position: relative;
+  overflow: hidden;
+
+  padding: 120px 40px;
+
+  border-radius: 28px;
+
+  margin-top: 90px;
+
+  background-image: url("../assets/Ready-to-source.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Dark Green Overlay */
+
+.cta-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(2, 45, 26, 0.72);
+
+  z-index: 1;
+}
+
+/* Blur Effect */
+
+.cta-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+
+  background: rgba(0, 0, 0, 0.12);
+
+  z-index: 2;
+}
+
+/* Content */
+
+.cta-section .container {
+  position: relative;
+  z-index: 3;
+}
+
+.cta-section h2 {
+  font-family: Playfair Display;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.96px;
+text-align: center;
+vertical-align: middle;
+color: white;
+
+}
+
+.cta-section p {
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color: rgba(126, 165, 136, 1);
+
+
+}
+
+/* Buttons */
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.primary-btn1 {
+  width: 282.5799865722656;
+height: 58;
+padding-top: 20.5px;
+padding-right: 48px;
+padding-bottom: 21.5px;
+padding-left: 48px;
+opacity: 1;
+border-radius: 12px;
+font: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 1.2px;
+text-align: center;
+vertical-align: middle;
+background-color: rgba(255, 222, 164, 1);
+color: rgba(91, 67, 14, 1);
+
+
+
+}
+
+.secondary-btn1 {
+  width: 244px;
+height: 58px;
+padding-top: 20px;
+padding-right: 48px;
+padding-bottom: 20px;
+padding-left: 48px;
+opacity: 1;
+border-radius: 12px;
+border-width: 1px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+font: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 1.2px;
+text-align: center;
+vertical-align: middle;
+
+
+
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .cta-section {
+    padding: 80px 20px;
+    margin: 80px 0;
+  }
+
+  .cta-section h2 {
+    font-size: 34px;
+  }
+
+  .cta-section p {
+    font-size: 16px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+  }
+}

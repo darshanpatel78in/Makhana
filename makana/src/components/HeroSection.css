@@ -1,0 +1,249 @@
+/* =========================
+        HERO SECTION
+========================= */
+
+.hero-section {
+  padding: 35px 0 120px;
+  background: #f5f1ea;
+  overflow: hidden;
+}
+
+.hero-wrapper {
+  position: relative;
+  min-height: 820px;
+  overflow: hidden;
+
+  /* Background Image */
+  background-image: url("../assets/Premium-Indian-Makhana.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+/* LEFT WHITE GRADIENT BLUR */
+
+.hero-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.88) 0%,
+    rgba(255,255,255,0.72) 22%,
+    rgba(255,255,255,0.42) 42%,
+    rgba(255,255,255,0.08) 62%,
+    rgba(255,255,255,0) 78%
+  );
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  z-index: 1;
+}
+
+/* BIG SOFT BLUR CIRCLE */
+
+.hero-wrapper::after {
+  content: "";
+  position: absolute;
+
+  width: 650px;
+  height: 650px;
+
+  background: rgba(255,255,255,0.45);
+
+  border-radius: 50%;
+
+  filter: blur(130px);
+
+  left: -220px;
+  top: 70px;
+
+  z-index: 1;
+}
+
+/* =========================
+        CONTENT
+========================= */
+
+
+.hero-content {
+  position: relative;
+  z-index: 5;
+  max-width: 560px;
+  padding-left: 75px;
+}
+
+/* TAG */
+
+.hero-tag {
+  display: inline-block;
+
+  background: #ead4a6;
+
+  color: #7c5a1f;
+
+  padding: 8px 16px;
+
+  border-radius: 7px;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 22px;
+}
+
+/* HEADING */
+.hero-content h6{
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+  color: rgba(91, 67, 14, 1);
+  background-color: rgba(255, 222, 164, 1);
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  color:rgba(0, 36, 16, 1);
+  margin-bottom: 24px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+  vertical-align: middle;
+  width: 672px;
+  height: 112px;
+}
+
+/* PARAGRAPH */
+
+.hero-content p {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.9;
+  color:rgba(66, 72, 66, 1);
+  max-width: 520px;
+  margin-bottom: 35px;
+  font: Inter;
+  font-weight: 400;
+  line-height: 29.25px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+
+/* BUTTONS */
+
+.hero-content button {
+  color: white;
+  display: flex;
+  gap: 18px;
+  background-color: rgba(0, 36, 16, 1);
+  padding-top: 16.5px;
+  text-decoration: none;
+  padding-right: 40px;
+  padding-bottom: 17.5px;
+  padding-left: 40px;
+  border-radius: 8px;
+}
+.quote-link {
+  text-decoration: none;
+}
+
+.primary-btn {
+  background: #123524;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 15px 34px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+  background-color: rgba(0, 36, 16, 1);
+}
+
+.primary-btn:hover {
+  background: #0d281b;
+}
+
+/* =========================
+        RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+  .hero-wrapper {
+    min-height: auto;
+    padding: 90px 35px;
+  }
+
+  .hero-content {
+    padding-left: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 52px;
+  }
+
+  .hero-wrapper::before {
+    background: rgba(255,255,255,0.72);
+  }
+
+  .stats-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+  }
+
+  .stat-box {
+    border-right: none;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .hero-section {
+    padding: 20px 0 80px;
+  }
+
+  .hero-wrapper {
+    padding: 70px 24px;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+  }
+
+  .stats-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,407 @@
+/* ================= HERO SECTION ================= */
+
+.product-hero{
+  background: linear-gradient(101.31deg, #F8F5EE 0%, #FFFFFF 100%);
+
+  padding: 110px 0 80px;
+
+  text-align: center;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.product-hero-content{
+  max-width: 850px;
+
+  margin: auto;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.product-hero-content h1{
+  font-family: "Playfair Display", serif;
+
+  font-weight: 700;
+
+  font-size: 48px;
+
+  line-height: 56px;
+
+  letter-spacing: -0.96px;
+
+  text-align: center;
+
+  color: rgba(0, 36, 16, 1);
+
+  margin-bottom: 20px;
+}
+
+.product-hero-content p{
+  font-family: "Inter", sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  line-height: 28px;
+
+  text-align: center;
+
+  color: rgba(66, 72, 66, 1);
+
+  max-width: 760px;
+
+  margin: auto;
+}
+
+/* ================= PRODUCT SECTION ================= */
+
+.product-page-section{
+  background: #ffffff;
+
+  padding: 90px 0;
+}
+
+.product-page-row{
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 22px;
+
+  padding: 40px 0;
+
+  
+}
+
+.reverse-layout{
+  flex-direction: row-reverse;
+}
+
+/* ================= IMAGE ================= */
+
+.product-page-image{
+  flex: 1;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 0px;
+}
+.product-page-image img{
+  width: 100%;
+
+  max-width: 560px;
+
+  height: auto;
+
+  object-fit: contain;
+
+  border-radius: 24px;
+
+  display: block;
+  width: 564px;
+  height: 502px;
+}
+
+/* ================= CONTENT ================= */
+
+.product-page-content{
+  flex: 1;
+
+  display: flex;
+  padding: 22px;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: flex-start;
+}
+.product-page-image img{
+  width: 100%;
+
+  max-width: 650px;
+
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+.product-page-content h2{
+  font-family: "Playfair Display", serif;
+
+  font-weight: 700;
+
+  font-size: 48px;
+
+  line-height: 56px;
+
+  letter-spacing: -0.96px;
+
+  color: rgba(0, 36, 16, 1);
+
+  margin-bottom: 24px;
+}
+
+.product-page-content p{
+  font-family: "Inter", sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  line-height: 26px;
+
+  color: rgba(66, 72, 66, 1);
+
+  margin-bottom: 32px;
+
+  max-width: 520px;
+}
+
+/* ================= BUTTON ================= */
+
+.product-page-content button{
+  width: 170px;
+
+  height: 50px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #000000;
+
+  color: #ffffff;
+
+  font-family: "Inter", sans-serif;
+
+  font-weight: 600;
+
+  font-size: 12px;
+
+  line-height: 16px;
+
+  letter-spacing: 1.2px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.product-page-content button:hover{
+  background: #1b4a2f;
+}
+
+/* ================= INQUIRY POPUP ================= */
+
+.inquiry-overlay{
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100vh;
+
+  background: rgba(0,0,0,0.6);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  z-index: 99999;
+}
+
+.inquiry-popup{
+  width: 450px;
+  height: 555px;
+
+  background: #ffffff;
+
+  border-radius: 20px;
+
+  padding: 30px;
+margin-top: 15px;
+  position: relative;
+
+  display: block;
+}
+
+.close-popup{
+  position: absolute;
+
+  top: 12px;
+  right: 18px;
+
+  border: none;
+
+  background: transparent;
+
+  font-size: 32px;
+
+  cursor: pointer;
+
+  color: black;
+}
+
+.inquiry-popup img{
+  width: 100%;
+
+  height: 140px;
+
+  object-fit: cover;
+
+  border-radius: 14px;
+
+  margin-bottom: 20px;
+}
+
+.inquiry-popup h3{
+  font-size: 28px;
+
+  color: #12301f;
+
+  margin-bottom: 18px;
+}
+
+.inquiry-popup form{
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+  
+}
+
+.inquiry-popup input,
+.inquiry-popup textarea{
+  width: 90%;
+max-width: 400px;
+  padding: 14px;
+
+  border: 1px solid #dcdcdc;
+
+  border-radius: 10px;
+
+  outline: none;
+
+  font-size: 15px;
+}
+
+.inquiry-popup textarea{
+  height: 100px;
+
+  resize: none;
+}
+
+.inquiry-popup form button{
+  background: #12301f;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+/* ================= MOBILE ================= */
+
+@media (max-width: 991px){
+
+  .product-page-row,
+  .reverse-layout{
+    flex-direction: column;
+
+    text-align: center;
+
+    min-height: auto;
+  }
+
+  .product-page-content{
+    align-items: center;
+  }
+
+}/* ================= INQUIRY FORM ================= */
+
+.inquiry-form h3{
+  font-size: 30px;
+
+  color: #12301f;
+
+  margin-bottom: 25px;
+
+  text-align: center;
+}
+
+.inquiry-form h6{
+  font-size: 14px;
+
+  margin-bottom: 10px;
+
+  color: #12301f;
+
+  font-weight: 600;
+}
+
+.inquiry-form input,
+.inquiry-form textarea{
+  width: 100%;
+
+  border: 1px solid #dcdcdc;
+
+  border-radius: 10px;
+
+  padding: 14px;
+
+  outline: none;
+
+  font-size: 14px;
+}
+
+.inquiry-form textarea{
+  resize: none;
+}
+
+.submit-btn{
+  width: 100%;
+
+  height: 52px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #12301f;
+
+  color: white;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  margin-top: 25px;
+
+  cursor: pointer;
+}

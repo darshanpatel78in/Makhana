@@ -1,0 +1,142 @@
+/* Footer.css */
+
+.footer-section {
+  background: #f9fafa;
+  color: #ffffff;
+  padding: 70px 0 25px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  color:rgba(0, 36, 16, 1);
+;
+  font-family: Playfair Display;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+
+}
+
+.footer-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: Playfair Display;
+font-style: SemiBold;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: rgba(0, 36, 16, 1);
+
+
+}
+
+.footer-text {
+  color: #cbd5e1;
+  line-height: 1.8;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 22.75px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: rgba(66, 72, 66, 1);
+
+
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+  color: #cbd5e1;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: rgba(66, 72, 66, 1);
+
+}
+
+.footer-links li:hover {
+  color: #0d6efd;
+  padding-left: 5px;
+}
+
+.newsletter-box {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  width: 227;
+height: 40;
+opacity: 1;
+padding-top: 10px;
+padding-right: 16px;
+padding-bottom: 11px;
+padding-left: 16px;
+border: black;
+border-color: black;
+
+
+
+
+}
+
+.newsletter-input {
+  width: 100%;  
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  
+}
+
+.newsletter-btn {
+  background: black;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  margin-top: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #94a3b8;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .newsletter-box {
+    flex-direction: column;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+  }
+}
