@@ -10,13 +10,11 @@
   margin-bottom: 20px;
   color:rgba(0, 36, 16, 1);
 ;
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 700;
-font-style: Bold;
 font-size: 24px;
 line-height: 32px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 
@@ -24,26 +22,21 @@ vertical-align: middle;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
-  font-family: Playfair Display;
-font-style: SemiBold;
+font-family: 'Playfair Display', serif;
 line-height: 32px;
 letter-spacing: 0px;
-vertical-align: middle;
 color: rgba(0, 36, 16, 1);
 
 
 }
 
 .footer-text {
-  color: #cbd5e1;
   line-height: 1.8;
-  font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 14px;
 line-height: 22.75px;
 letter-spacing: 0px;
-vertical-align: middle;
 color: rgba(66, 72, 66, 1);
 
 
@@ -56,16 +49,13 @@ color: rgba(66, 72, 66, 1);
 
 .footer-links li {
   margin-bottom: 12px;
-  color: #cbd5e1;
   cursor: pointer;
-  transition: 0.3s;
-  font-family: Inter;
+    transition: 0.3s;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 14px;
 line-height: 20px;
 letter-spacing: 0px;
-vertical-align: middle;
 color: rgba(66, 72, 66, 1);
 
 }
@@ -79,26 +69,18 @@ color: rgba(66, 72, 66, 1);
   display: flex;
   margin-top: 20px;
   gap: 10px;
-  width: 227;
-height: 40;
-opacity: 1;
 padding-top: 10px;
 padding-right: 16px;
 padding-bottom: 11px;
 padding-left: 16px;
-border: black;
-border-color: black;
-
-
-
-
 }
 
 .newsletter-input {
   width: 100%;  
-  border: none;
-  border-radius: 6px;
+padding: 10px 14px;
   outline: none;
+  background: rgba(246, 243, 242, 1);
+border: 1px solid rgba(0, 36, 16, 1);
   
 }
 

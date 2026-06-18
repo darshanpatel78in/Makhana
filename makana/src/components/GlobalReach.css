@@ -1,11 +1,8 @@
 
-/* GlobalReach.css */
-
 /* ================= WORLD BACKGROUND IMAGE ================= */
 
 .global-world-bg{
   position: relative;
-
   width: 100%;
 
   height: 500px;
@@ -41,10 +38,6 @@
   justify-content: center;
 
   gap: 10px;
-  width: 267px;
-height: 115px;
-gap: 8px;
-opacity: 1;
 border-radius: 8px;
 border-width: 1px;
 padding: 24px;
@@ -60,126 +53,66 @@ padding: 24px;
 }
 
 .worldwide-box span{
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
 font-size: 14px;
 line-height: 32px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 color: rgba(0, 36, 16, 1);
 
-}
-.world-bg{
-  position: absolute;
-
-  top: 50%;
-
-  left: 50%;
-
-  transform: translate(-50%, -50%);
-
-  width: 100%;
-  height: 100%;
-
-  background-image: url("../assets/world-map.png");
-
-  background-repeat: no-repeat;
-
-  background-position: center;
-
-  background-size: contain;
-
-  opacity: 0.12;
-
-  z-index: 0;
 }
 .global-section {
   padding: 100px 0;
   background: #f8fafc;
-  width: 1152;
-height: 400;
-opacity: 1;
-top: 2013.5px;
-left: 64px;
-grid-row: 1;
-grid-column  : 2;
-row-gap: 32px;
-column-gap: 32px;
 
 }
 
-.global-image img {
-  width: 100%;
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-}
 
 .global-content {
   padding-left: 20px;
-  font-family: Inter;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
-vertical-align: middle;
-width: 560;
-height: 292;
-opacity: 1;
 gap: 24px;
 top: 54px;
 left: 592px;
-grid-row-start: 1;
-grid-column-start: 2;
-column-span: 1;
 
 
 }
 
 .global-tag {
-  font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
-vertical-align: middle;
 color: rgba(117, 90, 36, 1);
-width: 106px;
-height: 16px;
 
 
 }
 
 .global-content h2 {
   font-size: 32px;
-  font-weight: 800;
   line-height: 1.3;
   color:rgba(0, 36, 16, 1);
   margin-bottom: 25px;
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
-line-height: 40px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 
 .global-content p {
-  font-size: 17px;
   line-height: 1.9;
   color: rgba(66, 72, 66, 1);
   margin-bottom: 35px;
-  font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 .country-box {
@@ -200,43 +133,31 @@ vertical-align: middle;
   font-weight: 600;
 
   color:rgba(27, 27, 28, 1);
-
   gap: 10px;
-  font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 line-height: 24px;
 letter-spacing: 0px;
-vertical-align: middle;
 
-}
-
-.country-box i {
-  color: #c49a4a;
-  font-size: 14px;
 }
 
 /* Responsive */
 
-@media (max-width: 768px) {
+@media (max-width: 576px){
 
-  .global-content {
-    padding-left: 0;
-    text-align: center;
+  .global-section .row{
+    gap: 20px;
   }
 
-  .global-content h2 {
-    font-size: 34px;
+  .global-content{
+    margin-top: 0;
   }
 
-  .country-list {
-    justify-content: center;
-  }
-}
-/* Trusted Section Inside Global */
+}/* Trusted Section Inside Global */
 
 .trusted-wrapper {
-  margin-top: 120px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .trusted-heading {
@@ -244,25 +165,21 @@ vertical-align: middle;
 }
 
 .trusted-tag {
-  font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
 text-align: center;
-vertical-align: middle;
+color: rgba(117, 90, 36, 1);
 }
 
 .trusted-heading h2 {
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
 font-size: 32px;
-line-height: 40px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 
 }
 
@@ -270,7 +187,6 @@ vertical-align: middle;
 
 .trusted-card {
   background:rgba(234, 231, 231, 1);
-  border-radius: 18px;
   padding: 35px 20px;
   text-align: center;
   height: 100%;
@@ -287,13 +203,11 @@ vertical-align: middle;
 .trusted-card h4 {
   color: #9da09d;
   margin-bottom: 15px;
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 700;
-font-style: Bold;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0px;
-vertical-align: middle;
 width: 128px;
 text-align: center;
 
@@ -318,54 +232,21 @@ text-align: center;
   margin: auto;
 }
 
-/* Heading */
-
-.trusted-card h3 {
-  font-size: 18px;
-  font-weight: 700;
-
-  color: #9c9c9c;
-
-  margin: 0;
-}
-
 /* Bottom Text */
 
-.trusted-text {
-  text-align: center;
-
-  margin-top: 14px;
-
-  font-size: 15px;
-
-  font-weight: 500;
-
-  color: #222;
-}
 .prg{
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 10px;
 line-height: 15px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 
 }
 
 /* Responsive */
 
 @media (max-width: 768px) {
-
-  .trusted-wrapper {
-  width: 1152;
-height: 158.5;
-opacity: 0.6;
-padding-top: 55.5px;
-gap: 48px;
-
-  }
 
   .trusted-heading h2 {
     font-size: 32px;
@@ -374,9 +255,6 @@ gap: 48px;
   .trusted-card {
 color: #787d82;  }
 }
-/* =========================
-        CTA SECTION
-========================= */
 
 /* =========================
       CTA / GLOBAL REACH
@@ -386,12 +264,10 @@ color: #787d82;  }
   position: relative;
   overflow: hidden;
 
-  padding: 120px 40px;
-
+  padding: 90px 20px;
+margin-right: 20px;
+margin-left: 20px;
   border-radius: 28px;
-
-  margin-top: 90px;
-
   background-image: url("../assets/Ready-to-source.png");
   background-size: cover;
   background-position: center;
@@ -433,27 +309,23 @@ color: #787d82;  }
 }
 
 .cta-section h2 {
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 700;
-font-style: Bold;
 font-size: 48px;
 line-height: 56px;
 letter-spacing: -0.96px;
 text-align: center;
-vertical-align: middle;
 color: white;
 
 }
 
 .cta-section p {
-font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 18px;
 line-height: 28px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 color: rgba(126, 165, 136, 1);
 
 
@@ -469,53 +341,37 @@ color: rgba(126, 165, 136, 1);
 }
 
 .primary-btn1 {
-  width: 282.5799865722656;
-height: 58;
-padding-top: 20.5px;
-padding-right: 48px;
-padding-bottom: 21.5px;
-padding-left: 48px;
-opacity: 1;
+padding: 20px 48px;
 border-radius: 12px;
-font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 700;
-font-style: Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
 text-align: center;
-vertical-align: middle;
 background-color: rgba(255, 222, 164, 1);
 color: rgba(91, 67, 14, 1);
-
-
-
 }
-
+.primary-btn1:hover{
+  background: #c49a4a;
+}
 .secondary-btn1 {
-  width: 244px;
-height: 58px;
 padding-top: 20px;
 padding-right: 48px;
 padding-bottom: 20px;
 padding-left: 48px;
-opacity: 1;
 border-radius: 12px;
-border-width: 1px;
 border: 1px solid rgba(255, 255, 255, 0.3);
-font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 700;
-font-style: Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
 text-align: center;
-vertical-align: middle;
-
-
-
 }
-
+.secondary-btn1:hover{
+  background: #c49a4a;
+}
 
 /* Responsive */
 

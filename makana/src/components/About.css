@@ -17,57 +17,45 @@
   position: absolute;
   inset: 0;
 
-  background: linear-gradient(
-    90deg,
-    rgba(8, 30, 18, 0.88) 0%,
-    rgba(8, 30, 18, 0.45) 45%,
-    rgba(8, 30, 18, 0.15) 100%
-  );
+background: linear-gradient(
+  90deg,
+  rgba(0, 36, 16, 0.8) 0%,
+   rgba(0, 36, 16, 0) 100%);
 }
 
 .about-hero-content {
   position: relative;
   z-index: 5;
-
-  max-width: 700px;
-
-  color: white;
-  width: 780.8599853515625;
-height: 322;
 max-width: 1280px;
 padding-top: 80px;
 padding-right: 64px;
 padding-left: 200px;
 gap: 16px;
-opacity: 1;
 
 }
 
 .about-hero-content h6{
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 2.4px;
-vertical-align: middle;
 color: rgba(255, 222, 164, 1);
 
 }
 
 .about-hero-content span{
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 700;
-font-style: Bold;
 font-size: 52px;
 line-height: 60px;
 letter-spacing: -0.96px;
-vertical-align: middle;
+color: white;
 
 }
 
 .about-hero-content p {
-  font-size: 19px;
+  font-size: 17px;
 
   line-height: 1.9;
 
@@ -83,42 +71,26 @@ vertical-align: middle;
   gap: 16px;
 }
 
-.primary-btn {
-  background:rgba(117, 90, 36, 1) ;
-
-  width: 170px;
-height: 50;
-padding-top: 16.5px;
-padding-right: 32px;
-padding-bottom: 17.5px;
-padding-left: 32px;
-opacity: 1;
-border-radius: 12px;
-
-}
 
 .secondary-btn {
-  width: 191px;
 height: 50;
 padding-top: 16px;
 padding-right: 32px;
 padding-bottom: 16px;
 padding-left: 32px;
-opacity: 1;
 border-radius: 12px;
 border-width: 1px;
 border: 1px ;
-backdrop-filter: blur(4px);
-font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
 text-align: center;
-vertical-align: middle;
-
-
+background: rgba(117, 90, 36, 1);
+}
+.secondary-btn:hover{
+  background-color: #e4d5ba;
 }
 
 /* =========================
@@ -126,7 +98,7 @@ vertical-align: middle;
 ========================= */
 
 .story-section {
-  padding: 110px 0;
+  padding: 90px 0;
 
   background:rgba(252, 249, 248, 1);
 }
@@ -145,41 +117,33 @@ vertical-align: middle;
   letter-spacing: 2px;
 
   font-weight: 700;
-  font : Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
-vertical-align: middle;
 
 }
 
 .story-content h2 {
-  font-size: 56px;
 
   line-height: 1.15;
 
   color:rgba(66, 72, 66, 1);
 
   margin: 18px 0 26px;
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
 font-size: 38px;
-line-height: 40px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 .story-content h6{
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0px;
-vertical-align: middle;
 color: rgba(66, 72, 66, 0.8);
 
 
@@ -207,23 +171,18 @@ color: rgba(66, 72, 66, 0.8);
   color: rgba(0, 36, 16, 1);
 
   margin-bottom: 8px;
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
 font-size: 32px;
-line-height: 40px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 .story-stats p{
-  font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
-vertical-align: middle;
 color: rgba(117, 90, 36, 1);
 }
 
@@ -244,27 +203,22 @@ color: rgba(117, 90, 36, 1);
 }
 
 .section-heading span {
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
 text-align: center;
-vertical-align: middle;
 color: rgba(117, 90, 36, 1)
 
 }
 
 .section-heading h2 {
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
 font-size: 38px;
-line-height: 40px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 
 }
 
@@ -281,8 +235,6 @@ vertical-align: middle;
 
   gap: 22px;
     flex-direction: column;
-
-
   align-items: flex-start;
 
   height: 100%;
@@ -295,7 +247,7 @@ vertical-align: middle;
 .icon-circle {
   width: 66px;
 
-  height: 66spx;
+  height: 66px;
 
   border-radius: 50%;
 
@@ -320,24 +272,20 @@ vertical-align: middle;
 }
 
 .excellence-card h3 {
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
 font-size: 26px;
 line-height: 32px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 
 .excellence-card p {
-  font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }/* =========================
         MISSION
@@ -366,13 +314,10 @@ vertical-align: middle;
 }
 
 .mission-card h2{
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
 font-size: 32px;
-line-height: 40px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 
@@ -382,13 +327,11 @@ vertical-align: middle;
   line-height: 1.9;
 
   color: rgba(255,255,255,0.82);
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 18px;
 line-height: 28px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 /* =========================
@@ -408,27 +351,22 @@ vertical-align: middle;
 }
 
 .journey-heading span {
-  font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
 text-align: center;
-vertical-align: middle;
 color: rgba(117, 90, 36, 1);
 
 }
 
 .journey-heading h2 {
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
 font-size: 40px;
-line-height: 40px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 color: rgba(0, 36, 16, 1);
 }
 
@@ -493,35 +431,28 @@ backdrop-filter: blur(20px)
 }
 
 .timeline-card h3 {
-  font-family: Playfair Display;
-font-weight: 600;
-font-style: SemiBold;
+font-family: 'Playfair Display', serif;font-weight: 600;
 font-size: 24px;
 line-height: 32px;
 letter-spacing: 0px;
-vertical-align: middle;
 color: rgba(117, 90, 36, 1);
 }
 
 .timeline-card h4 {
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 700;
-font-style: Semi Bold;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 
 .timeline-card p {
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0px;
-vertical-align: middle;
 
 }
 
@@ -587,28 +518,22 @@ vertical-align: middle;
 }
 
 .leadership-heading span {
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
 text-align: center;
-vertical-align: middle;
 color: rgba(117, 90, 36, 1);
 
 }
 
 .leadership-heading h2 {
   
-  font-family: Playfair Display;
-font-weight: 600;
-font-style: SemiBold;
+font-family: 'Playfair Display', serif;font-weight: 600;
 font-size: 36px;
-line-height: 40px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 color: rgba(0, 36, 16, 1);
 }
 
@@ -631,39 +556,32 @@ color: rgba(0, 36, 16, 1);
 }
 
 .leader-card h3 {
-font-family: Playfair Display;
-font-weight: 600;
-font-style: SemiBold;
+font-family: 'Playfair Display', serif;font-weight: 600;
 font-size: 24px;
 line-height: 32px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 color: rgba(0, 36, 16, 1);
 }
 
 .leader-card h5 {
-font  : Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 600;
-font-style: Semi Bold;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.2px;
 text-align: center;
-vertical-align: middle;
 color: rgba(117, 90, 36, 1);
 
 }
 
 .leader-card p {
-  font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 color: rgba(66, 72, 66, 1);
 }
 /* =========================
@@ -695,27 +613,23 @@ color: rgba(66, 72, 66, 1);
 }
 
 .about-cta-box h2 {
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 700;
-font-style: Bold;
 font-size: 52px;
 line-height: 56px;
 letter-spacing: -0.96px;
 text-align: center;
-vertical-align: middle;
 color: rgba(126, 165, 136, 1);
 
 }
 
 .about-cta-box p {
-font: Inter;
+font-family: 'Inter', sans-serif;
 font-weight: 400;
-font-style: Regular;
 font-size: 18px;
 line-height: 28px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 color: rgba(126, 165, 136, 0.8);
 
 }
@@ -744,20 +658,16 @@ color: rgba(126, 165, 136, 0.8);
   font-weight: 600;
 
   min-width: 220px;
-  font-family: Playfair Display;
-font-weight: 600;
-font-style: SemiBold;
+font-family: 'Playfair Display', serif;
 font-size: 24px;
 line-height: 32px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 
 }
 
 .contact-btn {
   background: rgba(255,255,255,0.08);
-border: 1px solid rgba(126, 165, 136, 0.2);
   color:rgba(126, 165, 136, 1);
 
   border: 1px solid rgba(255,255,255,0.12);
@@ -765,19 +675,22 @@ border: 1px solid rgba(126, 165, 136, 0.2);
 
   border-radius: 12px;
   backdrop-filter: blur(8px);
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-weight: 600;
-font-style: SemiBold;
 font-size: 24px;
 line-height: 32px;
 letter-spacing: 0px;
 text-align: center;
-vertical-align: middle;
 
 }
-.catalog-btn:hover,
+.catalog-btn:hover{
+    transform: translateY(-3px);
+    background: #c4b598;
+
+}
 .contact-btn:hover {
   transform: translateY(-3px);
+  background: #579b766c;
 }/* =========================
         RESPONSIVE
 ========================= */
@@ -796,18 +709,8 @@ vertical-align: middle;
     gap: 30px;
   }
 
-  .timeline {
-    grid-template-columns: 1fr;
-  }
 
-  .mission-box {
-    padding: 45px;
-  }
 
-  .cta-box {
-    padding: 50px 30px;
-  }
-}
 
 @media (max-width: 576px) {
 
@@ -816,10 +719,6 @@ vertical-align: middle;
   }
 
   .about-hero-content h1 {
-    font-size: 38px;
-  }
-
-  .section-title {
     font-size: 38px;
   }
 
@@ -836,7 +735,4 @@ vertical-align: middle;
     flex-direction: column;
   }
 
-  .cta-box h2 {
-    font-size: 36px;
-  }
-}
+}}

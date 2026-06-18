@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Product.css";
-
+import axios from "axios";
 import img1 from "../assets/Overlay+Border+Shadow.png";
 import img2 from "../assets/Overlay+Border+Shadow1.png";
 import img3 from "../assets/Overlay+Border+Shadow2.png";
@@ -13,7 +13,6 @@ const Product = () => {
     name: "",
     image: "",
   });
-
   const openInquiryForm = (name, image) => {
     setSelectedProduct({ name, image });
     setShowForm(true);
@@ -22,8 +21,47 @@ const Product = () => {
   const closeInquiryForm = () => {
     setShowForm(false);
   };
+  const [form, setform] =useState({
+    name: "",
+    email: "",
+    description: "",
+  });
+  const handlechange = (e) => {
+    setform({
+      ...form,
+      [e.target.name]: e.target.value,
+    })
+  };
+const handleSubmit = async (e) => {
 
-  return (
+  e.preventDefault();
+
+  try {
+
+    const res = await axios.post(
+      "http://localhost:5000/api/inquiry",
+      form
+    );
+
+    console.log(res.data);
+
+    alert("Inquiry Submitted");
+
+    setform({
+      name: "",
+      email: "",
+      description: "",
+    });
+
+    setShowForm(false);
+
+  } catch (error) {
+
+    console.log(error);
+
+  }
+
+};  return (
     <>
       {/* ================= HERO SECTION ================= */}
 
@@ -165,8 +203,7 @@ const Product = () => {
       {/* ================= INQUIRY FORM ================= */}
 
       {showForm && (
-
-        <div className="inquiry-overlay">
+                <div className="inquiry-overlay">
 
           <div className="inquiry-popup">
 
@@ -186,20 +223,29 @@ const Product = () => {
               {selectedProduct.name}
             </h3>
 
-            <form>
+            <form onSubmit={handleSubmit}>
 
               <input
                 type="text"
                 placeholder="Your Name"
+                name="name"
+                value={form.name}
+                onChange={handlechange}
               />
 
               <input
                 type="email"
                 placeholder="Your Email"
+                name="email"
+                value={form.email}
+                onChange={handlechange}
               />
 
               <textarea
                 placeholder="Write your inquiry..."
+                name="description"
+                value={form.description}
+                onChange={handlechange}
               ></textarea>
 
               <button type="submit">

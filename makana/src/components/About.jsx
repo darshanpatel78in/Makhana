@@ -13,6 +13,8 @@ import sym4 from "../assets/sym4.png"
 import person1 from "../assets/person1.png"
 import person2 from "../assets/person2.png"
 import person3 from "../assets/person3.png"
+import { Link } from "react-router-dom";
+
 
 
 
@@ -42,13 +44,11 @@ gap between traditional Indian agriculture and international luxury standards.
             </p>
 
             <div className="hero-btns">
-              <button className="primary-btn">
-                OUR HERITAGE
-              </button>
-
+<Link to="/Product">
               <button className="secondary-btn">
-                VIEW STANDARDS
+                VIEW PRODUCTS
               </button>
+              </Link>
             </div>
 
           </div>
@@ -65,7 +65,7 @@ gap between traditional Indian agriculture and international luxury standards.
 
             <div className="col-lg-5">
               <div className="story-image">
-                              <img src={product}/>
+                              <img src={product} alt=""/>
 
               </div>
             </div>
@@ -140,7 +140,7 @@ definitive gateway for authentic, grade-A Indian Makhana.</h6>
 
           <div className="icon-circle">
             <i className="bi bi-leaf"></i>
-            <img src={sym1}/>
+            <img src={sym1}alt=""/>
           </div>
 
           <div>
@@ -166,7 +166,7 @@ definitive gateway for authentic, grade-A Indian Makhana.</h6>
 
           <div className="icon-circle">
             <i className="bi bi-patch-check"></i>
-            <img src={sym2}/>
+            <img src={sym2}alt=""/>
           </div>
 
           <div>
@@ -190,7 +190,7 @@ definitive gateway for authentic, grade-A Indian Makhana.</h6>
 
           <div className="icon-circle">
             <i className="bi bi-globe"></i>
-            <img src= {sym3}/>
+            <img src= {sym3}alt=""/>
           </div>
 
           <div>
@@ -214,7 +214,7 @@ definitive gateway for authentic, grade-A Indian Makhana.</h6>
 
           <div className="icon-circle">
             <i className="bi bi-truck"></i>
-            <img src={sym4}/>
+            <img src={sym4}alt=""/>
           </div>
 
           <div>
@@ -247,7 +247,7 @@ definitive gateway for authentic, grade-A Indian Makhana.</h6>
       <div className="col-lg-6">
 
         <div className="mission-card">
-<img src={vision}/>
+<img src={vision}alt=""/>
           <h2>
             Our Vision
           </h2>
@@ -267,7 +267,7 @@ transparency, and the upliftment of agrarian heritage.
       <div className="col-lg-6">
 
         <div className="mission-card">
-<img src={mission}/>
+<img src={mission}alt=""/>
           <h2>
             Our Mission
           </h2>
@@ -510,15 +510,16 @@ innovative processing, and ethical business practices.
       </p>
 
       <div className="cta-btn-group">
-
+<Link to="/Product">
         <button className="catalog-btn">
           Request Export Catalog
         </button>
-
+</Link>
+<Link to="/Contact">
         <button className="contact-btn">
           Contact Sales
         </button>
-
+</Link>
       </div>
 
     </div>

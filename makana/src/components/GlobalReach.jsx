@@ -4,6 +4,8 @@ import "./GlobalReach.css";
 import worldglobal from "../assets/Global-Reach-Map.png";
 import location from "../assets/location.png"
 import world from "../assets/wld.png"
+import { Link } from "react-router-dom";
+
 
 
 const GlobalReach = () => {
@@ -203,15 +205,20 @@ const GlobalReach = () => {
     </p>
 
     <div className="cta-buttons">
-
+<Link to="/product">
       <button className="primary-btn1">
         Request Pricing & Samples
       </button>
-
-      <button className="secondary-btn1">
-        Talk to Export Expert
-      </button>
-
+</Link>
+<button className="secondary-btn1"
+  onClick={() =>
+    window.open(
+      "https://wa.me/919879868421",
+      "_blank"
+    )
+  }
+>
+Talk to export expert</button>
     </div>
 
   </div>

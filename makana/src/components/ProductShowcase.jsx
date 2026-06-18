@@ -2,6 +2,7 @@
 
 import React from "react";
 import "./ProductShowcase.css";
+import { Link } from "react-router-dom";
 
 // Import Images
 import RawImg from "../assets/raw-makhana.jpg";
@@ -22,9 +23,9 @@ const ProductShowcase = () => {
           <h2>Versatile Makhana Solutions</h2>
       </div>
 
-      <a href="/" className="view-products">
+<Link to="/Product" className="view-products">
         View All Products →
-      </a>
+      </Link>
 
     </div>
 

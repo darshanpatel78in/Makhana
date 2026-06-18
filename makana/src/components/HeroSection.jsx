@@ -24,7 +24,7 @@ const HeroSection = () => {
           </p>
 
 <Link to="/product" className="quote-link">
-  <button>
+  <button className="pry-btn">
     Request Quote
   </button>
 </Link>
